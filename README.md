@@ -31,6 +31,12 @@ Allí simplemente gira sobre si mismo y lo hace durante 1.5s. En ese tiempo veri
 Los estados están anunciados a donde transitan.
 
 
+Como quedaría la casa después de dejarle 10 minutos limpiando
+
 <img width="716" height="835" alt="Screenshot From 2026-10-01 17-09-17" src="https://github.com/user-attachments/assets/371a5d34-7061-4552-9fbf-6bbbf2e7f02f" />
 
+Video de ejecución:
+
+
+[Screencast From 2026-10-01 17-45-53.webm](https://github.com/user-attachments/assets/1429f9f7-8ed4-49e8-bf71-f7d785f7c6d5)
 
