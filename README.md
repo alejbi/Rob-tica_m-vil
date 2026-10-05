@@ -10,7 +10,7 @@ Para ello hemos utilizado unibotics y el fichero "copy.py" que viene dado de for
 
 Lo primero  son los import, entre los que incluimos nosotros algunos como math, random o time a parte de los que vienen de WebGUI,...
 
-Lo que hemos hecho es implementar una máquina de estados, en los que podemos transitar como **ADELANTE**, **REOTRCEDER** o **GORAR**.
+Lo que hemos hecho es implementar una máquina de estados, en los que podemos transitar como **ADELANTE**, **REOTRCEDER** o **GIRAR**.
 
 Para poder saber en qué estado estamos, utilizamos una variable que va cambiando dependiendo de la situación.
 
@@ -31,7 +31,7 @@ Allí simplemente gira sobre si mismo y lo hace durante 1.5s. En ese tiempo veri
 Los estados están anunciados a donde transitan.
 
 
-Como quedaría la casa después de dejarle 10 minutos limpiando:
+Como quedaría la casa después de dejarle 15 minutos limpiando:
 
 <img width="716" height="835" alt="Screenshot From 2026-10-01 17-09-17" src="https://github.com/user-attachments/assets/371a5d34-7061-4552-9fbf-6bbbf2e7f02f" />
 
