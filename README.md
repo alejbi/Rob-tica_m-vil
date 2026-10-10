@@ -65,4 +65,11 @@ Una vez que ya tenemos que analizar, verificamos que haya valores de linea para 
 Dependiendo de los valores que da se encarga de girar hacia algún lado o ir recto. 
 Si va recto se pone a acelerar hasta la velocidad máxima que alcanza el coche. (Simulando que tiene un límite de velocidad para hacerlo más realista como si tuviera una velocidad punta).
 
+Cuando se encuentra en los  casos de girar reduce su velocidad lineal y empieza a girar (simluando un piloto que frena para poder tomar una curva).
+
+Tiene implementado un controlador P para la lineal y otro para la angular. Lo que hace es multiplicar el error por una constante PD y (independiente para cada velocidad) por el error y sumarlo a la velocidad anterior que tenía, después utilizamos las funciones que hemos creado para hacer que no aumente ni reduzca mucho la velocidad (una velocidad mínima de lineal donde es seguro poder girar siempre y una velocidad angula de tope máximo para que no derrape y tenga sentido el giro).
+
+Una vez verificada la velocidad con los límites ya la publica.
+
+EN el caso de qe no vea la linea tiene una función donde reduce la velocidad lineal hasta marcha atrás mientras gira, así puede buscar otra vez la línea para retomarla.
 
