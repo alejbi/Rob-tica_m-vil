@@ -44,7 +44,7 @@ Video de ejecución:
 
 
 
-# práctica 2: Coche F1
+# Práctica 2: Coche F1
 
 
 El funcionamiento de esta práctica consiste en recrear el funcionamiento de un coche autonónomo.
