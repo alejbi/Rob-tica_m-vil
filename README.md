@@ -74,4 +74,28 @@ Una vez verificada la velocidad con los límites ya la publica.
 EN el caso de qe no vea la linea tiene una función donde reduce la velocidad lineal hasta marcha atrás mientras gira, así puede buscar otra vez la línea para retomarla.
 
 
+Video de vuelta en circuito simple:
+
 [Screencast From 2026-10-13 16-34-02.webm](https://github.com/user-attachments/assets/f8e27dab-b33e-4e22-9829-cabcd74eadd9)
+
+
+
+
+Videos con demostraciones en otras pistas de partes complicadas o que han dado problemas en el desarollo y ahora el coche es capaz de recorrer:
+
+
+[Screencast From 2026-10-13 16-38-04.webm](https://github.com/user-attachments/assets/652e53a7-50a4-47cc-80d8-ad6b11d3cdae)
+
+[Screencast From 2026-10-13 16-39-48.webm](https://github.com/user-attachments/assets/234d5085-72a8-4e1f-b731-7ba3cd888f9e)
+
+[Screencast From 2026-10-13 16-49-40.webm](https://github.com/user-attachments/assets/eb33006c-71a0-4a9a-9645-a91a9c344348)
+[Screencast From 2026-10-13 16-46-05.webm](https://github.com/user-attachments/assets/51a6f3c5-b0fd-4a43-8996-51d3841867e4)
+[Screencast From 2026-10-13 16-45-01.webm](https://github.com/user-attachments/assets/02a898dc-5b49-46d1-a947-23e445184409)
+
+
+Video de como evoluciona la velocidad angular y lineal a la hora de hacer curvas, con esto vemo como responde el coche de forma fluida y cercana a como serñia pilotarlo de forma real, con su reducción de velocidad en curvas, su velocidad punta en 6,...
+
+[Screencast From 2026-10-13 16-40-41.webm](https://github.com/user-attachments/assets/972252ac-bff9-4fb6-8059-bafc14ba70d4)
+
+
+
