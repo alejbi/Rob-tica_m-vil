@@ -73,3 +73,5 @@ Una vez verificada la velocidad con los límites ya la publica.
 
 EN el caso de qe no vea la linea tiene una función donde reduce la velocidad lineal hasta marcha atrás mientras gira, así puede buscar otra vez la línea para retomarla.
 
+
+[Screencast From 2026-10-13 16-34-02.webm](https://github.com/user-attachments/assets/f8e27dab-b33e-4e22-9829-cabcd74eadd9)
