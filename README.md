@@ -95,7 +95,7 @@ Videos con demostraciones en otras pistas de partes complicadas o que han dado p
 [Screencast From 2026-10-13 16-45-01.webm](https://github.com/user-attachments/assets/02a898dc-5b49-46d1-a947-23e445184409)
 
 
-Video de como evoluciona la velocidad angular y lineal a la hora de hacer curvas, con esto vemo como responde el coche de forma fluida y cercana a como serñia pilotarlo de forma real, con su reducción de velocidad en curvas, su velocidad punta en 6,...
+Video de como evoluciona la velocidad angular y lineal a la hora de hacer curvas, con esto vemos como responde el coche de forma fluida y cercana a como sería pilotarlo de forma real, con su reducción de velocidad en curvas, su velocidad punta en 6,...
 
 [Screencast From 2026-10-13 16-40-41.webm](https://github.com/user-attachments/assets/972252ac-bff9-4fb6-8059-bafc14ba70d4)
 
