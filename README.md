@@ -49,7 +49,7 @@ Video de ejecución:
 
 El funcionamiento de esta práctica consiste en recrear el funcionamiento de un coche autonónomo.
 
-El objetivo es implementar un controlador de tipo P, PD o PID que sea capaz de realizar los circuitos en el menor tiempo posible, simulando el control de una persona normal.
+El objetivo es implementar un controlador de tipo P, PD o PID que sea capaz de realizar los circuitos en el menor tiempo posible, **simulando el control de una persona normal**.
 
 La clabe del coche es seguir la línea central roja, de esta forma el coche funciona como un **sigue-lineas** y completa el circuito.
 
@@ -63,7 +63,7 @@ Una vez que ya tenemos el dato refinado de la cámara sobre el color rojo nos qu
 Una vez que ya tenemos que analizar, verificamos que haya valores de linea para saber si observa la linea o no, si la ve. Lo que hace es ver donde se encuentra el rojo y ver la distancia hasta el centro.
 
 Dependiendo de los valores que da se encarga de girar hacia algún lado o ir recto. 
-Si va recto se pone a acelerar hasta la velocidad máxima que alcanza el coche. (Simulando que tiene un límite de velocidad para hacerlo más realista como si tuviera una velocidad punta).
+Si va recto se pone a acelerar hasta la velocidad máxima que alcanza el coche. (Simulando que tiene un límite de velocidad para hacerlo más **realista** como si tuviera una velocidad punta).
 
 Cuando se encuentra en los  casos de girar reduce su velocidad lineal y empieza a girar (simluando un piloto que frena para poder tomar una curva).
 
