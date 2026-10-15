@@ -71,7 +71,9 @@ Tiene implementado un controlador P para la lineal y otro para la angular. Lo qu
 
 Una vez verificada la velocidad con los límites ya la publica.
 
-EN el caso de qe no vea la linea tiene una función donde reduce la velocidad lineal hasta marcha atrás mientras gira, así puede buscar otra vez la línea para retomarla.
+En el caso de qe no vea la linea tiene una función donde reduce la velocidad lineal hasta marcha atrás mientras gira, así puede buscar otra vez la línea para retomarla.
+
+En el caso de Ackermann también es capaz de completar también todos los circuitos.
 
 
 Video de vuelta en circuito simple:
@@ -82,6 +84,8 @@ Video de vuelta en circuito simple:
 
 
 Videos con demostraciones en otras pistas de partes complicadas o que han dado problemas en el desarollo y ahora el coche es capaz de recorrer:
+
+Incuye también los circuitos que tienen pianos de color rojo, demostrando que es capaz de correr en cualquier circuito
 
 
 [Screencast From 2026-10-13 16-38-04.webm](https://github.com/user-attachments/assets/652e53a7-50a4-47cc-80d8-ad6b11d3cdae)
