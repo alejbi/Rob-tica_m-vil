@@ -3,6 +3,12 @@
 
 El funcionamiento de esta práctica consiste en recrear el funcionamiento de un coche autonónomo.
 
+<img width="1080" height="1080" alt="prev01ss" src="https://github.com/user-attachments/assets/1aa3648f-5348-4d04-aed5-7823442a972e" />
+
+
+
+
+<p></p>
 El objetivo es implementar un controlador de tipo P, PD o PID que sea capaz de realizar los circuitos en el menor tiempo posible, **simulando el control de una persona normal**.
 
 La clabe del coche es seguir la línea central roja, de esta forma el coche funciona como un **sigue-lineas** y completa el circuito.
