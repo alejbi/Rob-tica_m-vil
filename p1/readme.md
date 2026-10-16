@@ -3,7 +3,7 @@
 # Practica 1: Aspiradora básica
 
 
-<img width="772" height="579" alt="gcpac1ab65bdb9c4e91a7cd706477dde7ac" src="https://github.com/user-attachments/assets/2037e8cf-27c0-4200-a409-edf5cd81989a" />
+<img width="400" height="300" alt="robot_400px" src="https://github.com/user-attachments/assets/d9dc6ea0-0cec-4636-a92b-b6adbda5f011" />
 
 
 <p></p>
