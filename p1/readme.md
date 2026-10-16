@@ -1,9 +1,12 @@
-# Robotica_movil
 
 
 # Practica 1: Aspiradora básica
 
 
+<img width="772" height="579" alt="gcpac1ab65bdb9c4e91a7cd706477dde7ac" src="https://github.com/user-attachments/assets/2037e8cf-27c0-4200-a409-edf5cd81989a" />
+
+
+<p></p>
 El objetivo de esta primera práctica consiste en implementar una pqueña aspiradora (coloquialmente conocida como "rumba") a la casa.
 
 Para ello hemos utilizado unibotics y el fichero "copy.py" que viene dado de forma predeterminada.
