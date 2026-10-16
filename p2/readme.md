@@ -3,8 +3,8 @@
 
 El funcionamiento de esta práctica consiste en recrear el funcionamiento de un coche autonónomo.
 
-<img width="1080" height="1080" alt="prev01ss" src="https://github.com/user-attachments/assets/1aa3648f-5348-4d04-aed5-7823442a972e" />
 
+<img width="400" height="400" alt="f1_400px" src="https://github.com/user-attachments/assets/8e8ea00b-e7db-4934-bf89-1a99621b0b6e" />
 
 
 
