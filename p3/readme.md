@@ -20,5 +20,7 @@ Ahora sí ya calculamos una fuerza atractiva. Lo primero que realizamos es norma
 </p>
 Para la fuerza repulsiva utilizamos el laser del coche, este mide todos los ángulos posibles entre 0º y 180º que abarcan la parte frontal (0 es la izquierda, 90 recto y 180 derecha).
  Nos interesa los valores que sean suficientemente cercanos, así que ponemos mínimo de cercanía, si superan ese mínimo lo dividimos entre si son rangos laterales (enfocado a las paredes para evitar oscilaciones) y rangos frontales.
- Como el vector crece en función de la distancia, si este se acerca tiene que ser mayor, es **inversamente proporcional** a la distancia
+ Como el vector crece en función de la distancia, si este se acerca tiene que ser mayor, es inversamente proporcional a la distancia.
+
+ Si es frontal, 1/distancia; si es lateral, 1/distancia²
 
