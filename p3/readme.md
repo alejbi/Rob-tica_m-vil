@@ -15,8 +15,10 @@ Antes de empezar a calcular fuerzas, comrpobamos que no estamos en el checkpoint
 </p>
 Ahora sí ya calculamos una fuerza atractiva. Lo primero que realizamos es normalizar la posición relativa para así poder tenerla deifinida en un rango entre 0 y 1, al estar dividiendo constantemente entre la distancia, esta siempre se va a mantener constante y así evitamos que al haber poca distancia hasta el checkpoint se frene o desaparezca la fuerza atractiva.
 
-
+<p>
+ 
+</p>
 Para la fuerza repulsiva utilizamos el laser del coche, este mide todos los ángulos posibles entre 0º y 180º que abarcan la parte frontal (0 es la izquierda, 90 recto y 180 derecha).
  Nos interesa los valores que sean suficientemente cercanos, así que ponemos mínimo de cercanía, si superan ese mínimo lo dividimos entre si son rangos laterales (enfocado a las paredes para evitar oscilaciones) y rangos frontales.
- 
+ Como el vector crece en función de la distancia, si este se acerca tiene que ser mayor, es **inversamente proporcional** a la distancia
 
