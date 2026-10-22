@@ -33,4 +33,11 @@ Para terminar, la repulsiva la normalizamos igual que la atractiva, esta vez ent
 
 
 En la **resultante** lo que hacemos es la fuerza atractiva menos la repulsiva, las dos multiplicadas por un constante para cada uno, ajustada para poder esquivar los objetos y recorrer el circuito.
+Esta fuerza resultante va a ir cambiando en cada iteración del bucle y así puede corregir el movimiento.
+
+
+Una vez que sabemos hacia donde, nos queda transformalo en instrucciones para el coche de setV y setW.
+Calculamos así el ángulo, dependiendo de las componentes del resultante (su distancia en x e y).
+
+Para ello utilizamos el arcotangente y en función de si es negativo, positivo o nulo (en la arcotangente se divide entre x y no se puede dividir entre 0) sacamos un ángulo,
 
