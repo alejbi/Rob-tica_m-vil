@@ -53,5 +53,9 @@ Vídeo de ejemplo completando el circuito:
 
 
 
+[Screencast From 2026-10-24 19-56-54.webm](https://github.com/user-attachments/assets/9cb54aa0-d3cc-4ce8-b96a-5c02d609440b)
+
+
+[Screencast From 2026-10-24 19-55-56.webm](https://github.com/user-attachments/assets/88e35bbf-7988-488a-b3fc-4998ef035aa7)
 
 
