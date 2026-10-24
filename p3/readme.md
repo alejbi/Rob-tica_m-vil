@@ -2,7 +2,7 @@
 
 Esta práctica consiste en implementar un algortimo capaz de hacer que el coche pueda esquivar obstáculos y ser capaz de navegar por el mapa utilizando localización local.
 
-<img width="400" height="400" alt="imagen_400x400" src="https://github.com/user-attachments/assets/3c7f5e33-3b2c-4479-8934-84e83c6c1789" />
+<img width="712" height="400" alt="imagen_horizontal_400" src="https://github.com/user-attachments/assets/fa079dac-f0e2-4221-b96d-f788cd6232c1" />
 
 
 Para ello utilizamos un sistemas de vectores con el cual intentamos pasar por distintos puntos de ruta (chekpoints) mientras esquivamos coches que se encuentran en el camino.
