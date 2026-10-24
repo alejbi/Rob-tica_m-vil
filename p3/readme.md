@@ -51,3 +51,7 @@ La velocidad lineal lo que hacemos es coger el módulo de este ángulo y normali
 
 Vídeo de ejemplo completando el circuito:
 
+
+
+
+
