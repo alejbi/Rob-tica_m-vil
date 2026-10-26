@@ -46,7 +46,8 @@ Para ello utilizamos el arcotangente y en función de si es negativo, positivo o
 Si es negativo lo que hacemos es sumar o restar pi (180º) y así poder llevarlo a alguno de los cuadrantes que observa el coche.
 
 La velocidad angular multiplica este ángulo por una constante para que así pueda girar con cierta velocidad.
-La velocidad lineal lo que hacemos es coger el módulo de este ángulo y normalizarlo para estar entere 0 y 1 (dividimos por pi). Con esto tenemos un ángulo que 0º es  0 (recto) y 180º es 1 (atrás), así que le damos la vuelta restandole ese valor a 1. Por último multiplicamos por una constante. Para asegurarnos de que va a tener una velocidad mínima lo que hacesmo es coger el máximo entre este número calculado y 0.5, así siempre habrá un mínimo de 0.5.
+La velocidad lineal lo que hacemos es coger el módulo de este ángulo y normalizarlo para estar entere 0 y 1 (dividimos por pi). Con esto tenemos un ángulo que 0º es  0 (recto) y 180º es 1 (atrás), así que le damos la vuelta restandole ese valor a 1. Por último multiplicamos por una constante. Para asegurarnos de que va a tener una velocidad mínima lo que hacesmo es coger el máximo entre este número calculado y 0.5, así siempre habrá un mínimo de 0.5. Esta idea de giro y de velocidades viene insipirada de las diapositivas del tema de navegación local.
+
 
 
 Vídeo de ejemplo completando el circuito:
