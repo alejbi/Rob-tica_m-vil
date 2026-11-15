@@ -23,6 +23,12 @@ Está implementado con un heap, una cola que según vas metiendo va ordenando de
 Con el método de BFS conseguimos que casillas que se encuentran a una distancia euclídea muy baja pero que no se pueden alcanzar fácilmente por ser otra calle o callejones, tengan un valor que corresponde a la distancia verdadera que toma ir hasta un punto u otro, dejando de lado ir en línea recta y atravesar muros a ser un verdadero recorrido para el coche.
 
 
+
+Ejemplo de mapa creado con BFS, callejón:
+<img width="1083" height="341" alt="Screenshot From 2026-11-15 12-47-31" src="https://github.com/user-attachments/assets/a6d00c1d-1e25-43c4-aa7e-6852b2c58400" />
+
+
+           
 Cada vez que la onda llega a una celda vecina, calcula su coste como coste de la celda de la que viene + paso a esa celda + penalización por cercanía a la pared.
 La onda se va expandiendo hasta completar el mapa y hay algunas celdas que se pueden llegar por muchos caminos, asi que si ese valor es menor que el que ya tenía guardada la celda, lo actualiza. Así, cada celda termina con el coste de la mejor ruta hasta el destino. 
 
@@ -42,3 +48,22 @@ El coche para moverse, primero mira las celdas qeu tiene en el camino, mira como
 Después se encarga de ver la distancia hasta el destino y calcula el ángulo entre su posiciń y destino con trigonometría. Se calcula de una forma similar que en la prácitca anterior, dependiendo del ángulo entre los puntos toma otro de salida  que hace que gire hacía el objetivo  para orientarse. De esta forma es capaz de girar en velocidad angular; para la velocidad lineal aplicamos como la práctica anterior, se toma el valor absoluto del ańgulo (evitar velocidades negativas que tiren hacia atrás) y se hace unitario, así el coche no empieza a frenar cuando se acerque , teniendo simpre una velocidad constante. Por último se le resta a 1  para que aumente cuando vaya en línea recta y no tanto cuando gire (aportando sentido y algo de realismo ala conducción), se le pone una velocidad mínima y se multiplica por una constante.
 
 Así el coche es capaz de llegar a su destino.
+
+
+Videos de ejemplo moviendose y llegando a destino:
+
+
+
+[Screencast From 2026-11-15 12-48-11.webm](https://github.com/user-attachments/assets/511abdbd-ddc3-4b41-89b8-1314796f78c6)
+
+
+
+
+[Screencast From 2026-11-15 12-49-07.webm](https://github.com/user-attachments/assets/a3d41684-9f04-4339-8b67-630b9a997975)
+
+
+
+
+[Screencast From 2026-11-15 12-52-39.webm](https://github.com/user-attachments/assets/7b5d8edb-4c32-4a78-b44d-3506908ada2b)
+
+
