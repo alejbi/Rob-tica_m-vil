@@ -20,6 +20,9 @@ Tras mirar las celdas vecinas y añadir su peso, nuestro algoritmo está impleme
 Está implementado con un heap, una cola que según vas metiendo va ordenando de menor a mayor, así conseguimos poder aplicar el BFS mejor sin tener que crear otra función auxiliar que reordene la cola constantemente sumando latencia, se consigue así optimizar recursos.
 
 
+Con el método de BFS conseguimos que casillas que se encuentran a una distancia euclídea muy baja pero que no se pueden alcanzar fácilmente por ser otra calle o callejones, tengan un valor que corresponde a la distancia verdadera que toma ir hasta un punto u otro, dejando de lado ir en línea recta y atravesar muros a ser un verdadero recorrido para el coche.
+
+
 Cada vez que la onda llega a una celda vecina, calcula su coste como coste de la celda de la que viene + paso a esa celda + penalización por cercanía a la pared.
 La onda se va expandiendo hasta completar el mapa y hay algunas celdas que se pueden llegar por muchos caminos, asi que si ese valor es menor que el que ya tenía guardada la celda, lo actualiza. Así, cada celda termina con el coste de la mejor ruta hasta el destino. 
 
