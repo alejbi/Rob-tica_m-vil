@@ -33,7 +33,7 @@ Cada vez que la onda llega a una celda vecina, calcula su coste como coste de la
 La onda se va expandiendo hasta completar el mapa y hay algunas celdas que se pueden llegar por muchos caminos, asi que si ese valor es menor que el que ya tenía guardada la celda, lo actualiza. Así, cada celda termina con el coste de la mejor ruta hasta el destino. 
 
 
-Una vez que se tiene las celdas, se suma un peso extra cerca de las paredes, asignamos  a cada celda del mapa un coste extra según lo cerca que esté de una pared: para cada desplazamiento posible dentro de un cuadrado de radio 4 casillas, evitando así que no se pegue a las paredes el coche. Se calcula mediante K * (R + 1 - d), donde d es la distancia a la pared. Cuanto más pegada está la celda a un muro, mayor es la penalización. Esta se calcula una vez y se superpone con la anterior.
+Una vez que se tiene las celdas, se suma un peso extra cerca de las paredes, asignamos  a cada celda del mapa un coste extra según lo cerca que esté de una pared: para cada desplazamiento posible dentro de un cuadrado de radio 4 casillas desde la pared, evitando así que no se pegue el coche. Se calcula mediante K * (R + 1 - d), donde d es la distancia a la pared. Cuanto más pegada está la celda a un muro, mayor es la penalización. Esta se calcula una vez y se superpone con la anterior.
 
 Para aumentar el peso, tuve el problema de que no era muy grande la diferencia, así que las que marco cerca las multiplico por una constante K para que crezcan. 
 
